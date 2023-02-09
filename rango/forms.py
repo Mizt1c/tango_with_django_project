@@ -1,5 +1,5 @@
 from django import forms
-from rango.models import Page, Category, UserProfile
+from rango.models import Page, Category, UserProfile, User
 
 class CategoryForm(forms.ModelForm):
     name = forms.CharField(max_length=Category.NAME_MAX_LENGTH, help_text="Please enter the category name.")
