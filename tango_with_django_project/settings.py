@@ -85,6 +85,7 @@ PASSWORD_HASHERS = [
 STATICFILES_DIRS = [STATIC_DIR, ]
 STATIC_URL = '/static/'
 
+LOGIN_URL = 'rango:login'
 
 MEDIA_ROOT = MEDIA_DIR
 MEDIA_URL = '/media/'
